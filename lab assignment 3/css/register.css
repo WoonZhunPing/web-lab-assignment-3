@@ -1,0 +1,53 @@
+header {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+footer #register {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer p {
+    color: white;
+    font-size: 12px;
+
+}
+
+
+#regSection {
+    margin: 0;
+    height: 650px;
+    max-width: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.95)), url(tutor.png); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 50px;
+
+} 
+
+
+#loginSection h3 {
+    text-align: center;
+
+}
+
+form {
+    margin-top: 20px;
+}
+
+.w3-button{
+    background: linear-gradient(to right, rgb(14, 66, 235, 0.5), rgb(14, 66, 235, 1));
+    margin-left: 21vh;
+    
+
+}

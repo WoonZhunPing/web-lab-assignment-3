@@ -1,0 +1,82 @@
+header{
+    display:block;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+footer #register{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+
+footer p {
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+#loginSection{
+    margin: 0;
+    height: 540px;
+    max-width: 100%;
+    background:linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.95)), url(tutor.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+#loginSection2{
+    margin: 0;
+    height: 540px;
+    max-width: 100%;
+    background:linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.95)), url(tutor.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#loginSection h3{
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+}
+
+form #signinButton{
+   background:linear-gradient(to right, rgb(14, 66, 235,0.5), rgb(14, 66, 235,1));
+   margin-left: 21vh;
+   
+}
+
+form #forgetPass{
+   margin-left: 15vh;
+   color: black;
+}
+
+form #tRegister{
+    margin-left: 14vh;
+    color: black;
+ }
+
+form #forgetPass a{
+    text-decoration: none;
+}
+
+
+
+
+
+

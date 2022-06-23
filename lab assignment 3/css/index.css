@@ -1,0 +1,79 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#background{
+    width: auto;
+    height: 528px;
+    background:linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.95)), url(tutor.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;   
+}   
+
+
+
+#innerHeader {
+    height: 100%;
+    display: block;
+
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+#logoTutor {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.w3-bar-block{
+    color: black;
+}
+
+#logoTutor h1 {
+    display: table-cell;
+    vertical-align: middle;
+    font: size 50px;
+    color: white
+}
+
+#navigationMenu {
+    float: right;
+    height: 100%;
+}
+
+
+#navigationMenu ul {
+    margin: 0;
+    height: 100%;
+}
+
+
+
+#navigationMenu a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 40px;
+}
+
+#navigationMenu a :hover{
+  color: dodgerblue;
+  transition: 0.7s ease;
+
+}
+
+#navigationMenu li {
+
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
